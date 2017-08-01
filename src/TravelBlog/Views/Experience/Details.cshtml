@@ -16,6 +16,7 @@
         <li>@experience.Story
             <ul>
             <li>@Html.ActionLink("Edit", "Edit", "Experience", new { id = experience.ExperienceId })</li>
+                <li>@Html.ActionLink("Delete", "Delete", "Experience", new { id = experience.ExperienceId })</li>
             </ul>
     </li>
         
@@ -24,3 +25,4 @@
 </ul>
 
 <p>@Html.ActionLink("List of locations", "Index", "Location")</p>
+<p>@Html.ActionLink("Add new experience", "Create")</p>
