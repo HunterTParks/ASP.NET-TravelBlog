@@ -173,6 +173,9 @@
 -resource:"c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\obj\Debug\netcoreapp1.0\TravelBlogdotnet-compile.deps.json",TravelBlog.deps.json
 "c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Program.cs"
 "c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Startup.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Controllers\ExperienceController.cs"
 "c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Controllers\HomeController.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Controllers\LocationController.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Models\Experience.cs"
 "c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Models\Location.cs"
 "c:\users\epicodus\documents\visual studio 2015\Projects\TravelBlog\src\TravelBlog\Models\TravelBlogContext.cs"

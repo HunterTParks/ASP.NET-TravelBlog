@@ -1,0 +1,26 @@
+﻿@model TravelBlog.Models.Location
+@{
+    ViewData["Title"] = "Travel Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+<hr />
+@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+
+<p>TESTING HAHAHAHAAHHAAH</p>
+
+<ul>
+    @foreach(var experience in Model.Experiences)
+    {
+        <li>@experience.Story
+            <ul>
+            <li>@Html.ActionLink("Edit", "Edit", "Experience", new { id = experience.ExperienceId })</li>
+            </ul>
+    </li>
+        
+    }
+
+</ul>
+
+<p>@Html.ActionLink("List of locations", "Index", "Location")</p>
